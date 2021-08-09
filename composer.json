@@ -1,0 +1,27 @@
+{
+  "name" : "dave-liddament/psalm-issue-demo",
+  "type": "project",
+  "description": "Demo to help find issue with psalm",
+  "license" : "MIT",
+  "authors" : [
+    {
+      "name" : "Dave Liddament",
+      "email" : "daveliddament@gmail.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": ">=7.3 <8.1"
+  },
+  "require-dev": {
+    "vimeo/psalm": "4.9.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Demo\\": "src/"
+    }
+
+  }
+}
